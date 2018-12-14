@@ -1,0 +1,71 @@
+$family-2: 'Oswald', sans-serif;
+/* ----------Configurar Bulma---------- */
+$family-primary: 'Nunito', sans-serif;
+
+$body-line-height: 1.8;
+
+$primary: #2E4BDB;
+$dark:#322e38;
+
+$navbar-height: 5rem;
+$navbar-item-img-max-height: 3.5rem;
+$navbar-background-color: transparent;
+$navbar-item-color: #ffffff;
+$navbar-item-hover-color: #ffffff;
+$navbar-item-hover-background-color: #3C3744;
+$navbar-burger-color: $navbar-item-color;
+
+$button-focus-box-shadow-size: 0;
+
+@import "./node_modules/bulma/bulma";
+/* ----------Configurar Bulma---------- */
+
+.navbar-burger span {
+    background-color: $navbar-burger-color
+}
+
+.columns {
+    margin: 0
+}
+
+/* ----------Configurar Bulma---------- */
+html,body,#__next,.layout,.page{
+    height: 100%
+}
+html {
+    overflow-y: inherit
+}
+.layout {
+    position: relative
+}
+
+.page {
+    overflow-y: scroll
+}
+
+.micolor1 {
+    color: $primary
+}
+
+.family2 {
+    font-family: $family-2
+}
+
+/* MOBILE only */
+@media only screen and (min-width:0px) and (max-width:768px) {
+    html {
+        font-size: 13px
+    }
+}
+/* TABLET */
+@media only screen and (min-width:769px) {
+    
+}
+/* DESKTOP */
+@media only screen and (min-width:1024px) {}
+/* WIDESCREEN */
+@media only screen and (min-width:1216px) {}
+/* FULLHD */
+@media only screen and (min-width: 1408px) {}
+
+
