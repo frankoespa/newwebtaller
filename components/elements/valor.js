@@ -4,23 +4,21 @@ class Valor extends Component {
 
     constructor(props) {
         super(props);
-        
+
     }
-    
 
     render() {
         return (
             <section className="has-background-dark">
                 <div className="caja">
-                    <div className="container">
+                    <div>
                         <p className="title has-text-white has-text-weight-light is-1 family2">{this.props.tit1} <span className="micolor1 has-text-weight-bold">{this.props.tit2}</span></p>
                         <p className="subtitle has-text-white has-text-weight-light is-4">{this.props.sub}</p>
-                        {this.props.bot == "" ? null : <a href="#" className="button is-medium is-primary">¿Qué es?</a> }
-                        
-                    </div>                 
+                        {this.props.bot == "" ? null : <a href="#" className="button is-medium is-primary has-text-weight-bold">¿Qué es?</a>}
+                    </div>
                 </div>
                 <style jsx>{`
-                        section {
+                    section {
                         position: relative;
                         height: 400px;
                         width: 100%;
@@ -37,11 +35,16 @@ class Valor extends Component {
                         width: 100%;
                         height: 100%;
                         display: flex;
-                        align-items: center;
+                        align-items: left;
                         justify-content: center;
                         flex-direction: column;
                         background-color: rgba(50, 46, 56, 0.6);
-                        padding: 0px 20px 0px 20px
+                        padding: 0px 30px 0px 30px
+                    }
+                    @media only screen and (min-width: 1408px) {
+                        .caja {
+                            padding: 0px 80px 0px 80px
+                        }
                     }
                     `}</style>
             </section>

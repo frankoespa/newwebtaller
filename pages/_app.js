@@ -16,7 +16,7 @@ class Layout extends React.Component {
     componentDidMount(){
         setTimeout(()=> {
             this.setState({carga:false})
-        },2000)
+        },1000)
     }
 
     render() {

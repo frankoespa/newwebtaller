@@ -32,7 +32,7 @@ class Portada extends Component {
                 <div id="caja">
                     <p className="title has-text-white has-text-weight-light has-text-centered is-1 family2">MECÁNICA AUTOMOTRIZ <span className="micolor1 has-text-weight-bold">PROFESIONAL</span></p>
                     <p className="subtitle has-text-white has-text-weight-light is-4 has-text-centered">CENTRO INTEGRAL DE REPARACIÓN Y MANTENIMIENTO DE VEHÍCULOS</p>
-                    <a href="#" className="button is-medium is-primary">Saber Más</a>
+                    <a href="#" className="button is-medium is-primary has-text-weight-bold">Saber Más</a>
                 </div>
                 <div id="tri-1" ref={this.tria}></div>
                 <style jsx>{`

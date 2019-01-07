@@ -6,8 +6,8 @@ class Menu extends Component {
             <nav className="navbar is-transparent" role="navigation" aria-label="main navigation">
                 <div className="container">
                     <div className="navbar-brand">
-                        <a className="navbar-item" href="https://bulma.io">
-                            <img src="static/newlogo.svg" alt="Bulma: a modern CSS framework based on Flexbox" />
+                        <a className="navbar-item" href="/">
+                            <img src="static/newlogo.svg" alt="Mecánica Esparza" />
                         </a>
                         <div className="navbar-burger" role="button" aria-label="menu" aria-expanded="false">
                             <span aria-hidden="true"></span>
