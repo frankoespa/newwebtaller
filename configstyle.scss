@@ -4,70 +4,107 @@ $family-primary: 'Nunito', sans-serif;
 
 $body-line-height: 1.8;
 
-$primary: #2E4BDB;
-$dark:#322e38;
+$primary: #2e4bdb;
+$dark: #1e1e24;
+$dark-2: #15151a;
 
 $navbar-height: 5rem;
 $navbar-item-img-max-height: 3.5rem;
 $navbar-background-color: transparent;
 $navbar-item-color: #ffffff;
 $navbar-item-hover-color: #ffffff;
-$navbar-item-hover-background-color: #3C3744;
+$navbar-item-hover-background-color: #3c3744;
 $navbar-burger-color: $navbar-item-color;
 
-$footer-background-color: $dark;
+$footer-background-color: $dark-2;
 
 $button-focus-box-shadow-size: 0;
+$button-padding-vertical: 1.5em;
+$button-padding-horizontal: 1.3em;
+$button-border-width: 0;
+$button-color: white;
+$button-focus-color: none;
 
-@import "./node_modules/bulma/bulma";
+@import './node_modules/bulma/bulma';
 /* ----------Configurar Bulma---------- */
 
 .navbar-burger span {
-    background-color: $navbar-burger-color
+	background-color: $navbar-burger-color;
 }
 
 .columns {
-    margin: 0
+	margin: 0;
+}
+
+.button {
+	background: rgb(46, 75, 219);
+	background: linear-gradient(90deg, rgba(46, 75, 219, 1) 0%, rgba(0, 206, 247, 1) 100%);
+	transition: background-color 0.3s linear 0s, color 0.3s linear 0s;
+}
+.columns:last-child {
+	margin-bottom: 0rem;
 }
 
 /* ----------Configurar Bulma---------- */
-html,body,#__next,.layout,.page{
-    height: 100%
+*:focus {
+	outline: none;
+}
+html,
+body,
+#__next,
+.layout {
+	height: 100%;
+}
+.page {
+	height: auto;
+	min-height: 100vh;
 }
 html {
-    overflow-y: inherit
+	overflow-y: inherit;
 }
 .layout {
-    position: relative
-}
-
-.page {
-    overflow-y: scroll
+	position: relative;
+	overflow-y: scroll;
+	overflow-x: hidden;
 }
 
 .micolor1 {
-    color: $primary
+	color: $primary;
 }
 
 .family2 {
-    font-family: $family-2
+	font-family: $family-2;
 }
+
+.has-background-dark-2 {
+	background-color: $dark-2;
+}
+
+.opensidemenu {
+	transform: translateX(0) !important;
+}
+
+/* Configurar Slick Slider */
+.slick-list {
+	overflow: visible;
+}
+/* Configurar Slick Slider */
 
 /* MOBILE only */
-@media only screen and (min-width:0px) and (max-width:768px) {
-    html {
-        font-size: 13px
-    }
+@media only screen and (min-width: 0px) and (max-width: 768px) {
+	html {
+		font-size: 13px;
+	}
 }
 /* TABLET */
-@media only screen and (min-width:769px) {
-    
+@media only screen and (min-width: 769px) {
 }
 /* DESKTOP */
-@media only screen and (min-width:1024px) {}
+@media only screen and (min-width: 1024px) {
+}
 /* WIDESCREEN */
-@media only screen and (min-width:1216px) {}
+@media only screen and (min-width: 1216px) {
+}
 /* FULLHD */
-@media only screen and (min-width: 1408px) {}
-
-
+@media only screen and (min-width: 1408px) {
+}

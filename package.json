@@ -3,16 +3,23 @@
   "scripts": {
     "dev": "next",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "static": "next export"
   },
   "dependencies": {
+    "axios": "^0.18.0",
     "bulma": "^0.7.1",
     "google-maps-react": "^2.0.2",
-    "next": "^7.0.0",
-    "react": "^16.5.2",
-    "react-dom": "^16.5.2"
+    "next": "^8.0.3",
+    "react": "^16.8.3",
+    "react-dom": "^16.8.3",
+    "react-messenger-customer-chat": "^0.7.2",
+    "react-odometerjs": "^2.1.1",
+    "react-slick": "^0.23.2",
+    "scrollreveal": "^4.0.5"
   },
   "devDependencies": {
+    "@zeit/next-css": "^1.0.1",
     "@zeit/next-sass": "^1.0.1",
     "node-sass": "^4.9.3"
   }
