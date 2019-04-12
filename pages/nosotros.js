@@ -1,27 +1,39 @@
+import React, { Fragment } from 'react';
 import Head from 'next/head';
+import Menu from '../components/menu';
 
 const Nosotros = () => (
-	<div className='page has-text-centered'>
+	<Fragment>
 		<Head>
 			<title>Nosotros</title>
 			<meta name='description' content='¿Quiénes somos y cómo trabajamos?' />
 		</Head>
-		<img src='/static/worksection.svg' />
-		<a href='/' className='button has-text-weight-bold'>
-			Inicio
-		</a>
-		<style jsx>{`
-			img {
-				width: 20rem;
-			}
-			.page {
-				display: flex;
-				flex-direction: column;
-				justify-content: center;
-				align-items: center;
-			}
-		`}</style>
-	</div>
+		<Menu main={false} />
+		<section className='section is-medium'>
+			<div className='container'>
+				<h1 className='title is-2 has-text-weight-normal has-text-centered family2'>
+					¿Quiénes <span className='has-text-weight-bold micolor1'>somos</span>?
+				</h1>
+				<div className='columns is-multiline'>
+					<div className='column is-12'>
+						<p className='is-size-5 has-text-weight-light has-text-centered'>
+							Somos una empresa especializada en servicios de mecánica integral automotriz desde hace 30 años, contando con un equipo de
+							profesionales experimentados, equipamiento y tecnología de vanguardia
+						</p>
+					</div>
+					<div className='column is-4'>
+						<img src='/static/fotos/8-compressor.jpg' />
+					</div>
+					<div className='column is-4'>
+						<img src='/static/fotos/4-compressor.jpg' />
+					</div>
+					<div className='column is-4'>
+						<img src='/static/fotos/5-compressor.jpg' />
+					</div>
+				</div>
+			</div>
+		</section>
+	</Fragment>
 );
 
 export default Nosotros;

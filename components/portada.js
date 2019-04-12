@@ -30,7 +30,7 @@ class Portada extends Component {
 	render() {
 		return (
 			<section id='portada' ref={this.portada}>
-				<Menu />
+				<Menu main={true} />
 				<div id='caja'>
 					<p className='title has-text-white has-text-weight-normal has-text-centered is-1 family2 this-reveal'>
 						MECÁNICA AUTOMOTRIZ <span className='micolor1 has-text-weight-bold'>PROFESIONAL</span>

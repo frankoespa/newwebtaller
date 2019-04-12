@@ -7,8 +7,8 @@ class Carga extends Component {
 				<img src='static/icon-carga.svg' alt='' />
 				<style jsx>{`
 					div {
-						position: absolute;
-						z-index: 100;
+						position: fixed;
+						z-index: 2000;
 						width: 100%;
 						height: 100%;
 						display: flex;

@@ -13,7 +13,7 @@ class Menu extends Component {
 
 	render() {
 		return (
-			<nav className='navbar is-transparent' role='navigation' aria-label='main navigation'>
+			<nav className={`navbar ${this.props.main == true ? '' : 'has-background-dark'}`} role='navigation' aria-label='main navigation'>
 				<div className='container'>
 					<div className='navbar-brand'>
 						<a href='/'>
@@ -39,6 +39,12 @@ class Menu extends Component {
 									<span>341-5889498</span>
 								</span>
 							</div>
+							<Link href='/' prefetch>
+								<div className='navbar-item has-text-weight-normal my-item family2'>
+									INICIO
+									<span className='sub' />
+								</div>
+							</Link>
 							<Link href='/servicios' prefetch>
 								<div className='navbar-item has-text-weight-normal my-item family2'>
 									SERVICIOS

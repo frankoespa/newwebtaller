@@ -1,3 +1,4 @@
+import React, { Fragment } from 'react';
 import Head from 'next/head';
 import apiMap from '../secret';
 import Portada from '../components/portada';
@@ -10,7 +11,7 @@ import Servicios from '../components/servicios';
 import Reviews from '../components/reviews';
 
 const Home = ({ reviews }) => (
-	<div className='page'>
+	<Fragment>
 		<Head>
 			<title>Mecánica Esparza | Mecánica Integral Automotriz</title>
 			<meta
@@ -46,7 +47,7 @@ const Home = ({ reviews }) => (
 		/>
 		<Reviews reviews={reviews} />
 		<Map />
-	</div>
+	</Fragment>
 );
 
 Home.getInitialProps = async ({ req }) => {

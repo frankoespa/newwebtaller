@@ -25,7 +25,9 @@ class Layout extends React.Component {
 			container: '.layout',
 			duration: 1500
 		});
-		this.setState({ carga: false });
+		setTimeout(() => {
+			this.setState({ carga: false });
+		}, 1000);
 	}
 
 	render() {
