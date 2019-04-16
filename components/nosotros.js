@@ -5,8 +5,8 @@ class Nosotros extends Component {
 		return (
 			<section className='section is-medium'>
 				<div className='container'>
-					<h2 className='title is-2 has-text-weight-normal has-text-centered family2 this-reveal'>
-						¿Quiénes <span className='has-text-weight-bold micolor1'>somos</span>?
+					<h2 className='title is-3 has-text-weight-semibold has-text-centered family2 this-reveal'>
+						¿QUIÉNES <span className='micolor1'>SOMOS</span>?
 					</h2>
 					<div className='columns is-multiline is-centered is-mobile'>
 						<div className='column is-12-mobile is-12-tablet is-8-desktop'>

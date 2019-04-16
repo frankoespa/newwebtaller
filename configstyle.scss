@@ -1,7 +1,5 @@
-$family-2: 'Oswald', sans-serif;
 /* ----------Configurar Bulma---------- */
 $family-primary: 'Nunito', sans-serif;
-
 $body-line-height: 1.8;
 
 $primary: #2e4bdb;
@@ -46,6 +44,10 @@ $button-focus-color: none;
 }
 
 /* ----------Configurar Bulma---------- */
+$family-2: 'Oswald', sans-serif;
+$my-text-color-1: $dark;
+$my-text-color-2: $dark-2;
+
 *:focus {
 	outline: none;
 }
@@ -82,6 +84,13 @@ html {
 
 .opensidemenu {
 	transform: translateX(0) !important;
+}
+
+.my-text-color-1 {
+	color: $my-text-color-1;
+}
+.my-text-color-2 {
+	color: $my-text-color-2;
 }
 
 /* Configurar Slick Slider */

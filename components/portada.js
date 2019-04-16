@@ -33,7 +33,7 @@ class Portada extends Component {
 				<Menu main={true} />
 				<div id='caja'>
 					<p className='title has-text-white has-text-weight-normal has-text-centered is-1 family2 this-reveal'>
-						MECÁNICA AUTOMOTRIZ <span className='micolor1 has-text-weight-bold'>PROFESIONAL</span>
+						MECÁNICA AUTOMOTRIZ <span className='micolor1 has-text-weight-semibold'>PROFESIONAL</span>
 					</p>
 					<p className='subtitle has-text-grey-light has-text-weight-light is-4 has-text-centered'>
 						Centro integral de reparación y mantenimiento de vehículos

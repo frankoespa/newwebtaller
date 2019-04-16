@@ -8,8 +8,8 @@ class Mision extends Component {
 					<div className='columns'>
 						<div className='column this-reveal'>
 							<img src='/static/ourmision.svg' alt='' />
-							<h2 className='title is-2 has-text-weight-normal has-text-centered family2'>
-								Nuestra <span className='has-text-weight-bold micolor1'>misión</span>
+							<h2 className='title is-3 has-text-weight-semibold has-text-centered family2'>
+								NUESTRA <span className='micolor1'>MISIÓN</span>
 							</h2>
 							<p className='is-size-5 has-text-weight-normal has-text-centered'>
 								Ofrecer un servicio mecánico de calidad y variado, creando valor para nuestros clientes desde nuestra experiencia y
@@ -18,8 +18,8 @@ class Mision extends Component {
 						</div>
 						<div className='column this-reveal'>
 							<img src='/static/ourvision.svg' alt='' />
-							<h2 className='title is-2 has-text-weight-normal has-text-centered family2'>
-								Nuestra <span className='has-text-weight-bold micolor1'>visión</span>
+							<h2 className='title is-3 has-text-weight-semibold has-text-centered family2'>
+								NUESTRA <span className='has-text-weight-bold micolor1'>VISIÓN</span>
 							</h2>
 							<p className='is-size-5 has-text-weight-normal has-text-centered'>
 								Posicionarnos como uno de los mejores centros de reparación y mantenimiento de vehículos de Rosario apoyándonos en el{' '}

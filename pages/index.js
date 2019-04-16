@@ -23,7 +23,7 @@ const Home = ({ reviews }) => (
 		<Servicios />
 		<Nosotros />
 		<Valor
-			tit1='Diagnósticos por'
+			tit1='DIAGNÓSTICOS POR'
 			tit2='SOFTWARE'
 			sub='Contamos con equipo para escanear y encontrar fallas rápidamente en su vehículo'
 			bot='/scanner'
@@ -31,7 +31,7 @@ const Home = ({ reviews }) => (
 		/>
 		<Mision />
 		<Valor
-			tit1='Responsabilidad y'
+			tit1='RESPONSABILIDAD Y'
 			tit2='COMPROMISO'
 			sub='Siempre pensando en el cliente para brindar servicios de calidad'
 			bot=''
@@ -39,7 +39,7 @@ const Home = ({ reviews }) => (
 		/>
 		<Clientes />
 		<Valor
-			tit1='30 años de'
+			tit1='30 AÑOS DE'
 			tit2='EXPERIENCIA'
 			sub='Personal altamente experimentado y en constante capacitación y perfeccionamiento'
 			bot=''

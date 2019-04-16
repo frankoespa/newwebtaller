@@ -8,7 +8,7 @@ class Servicios extends Component {
 				<div className='container'>
 					<div className='columns is-multiline'>
 						<div className='column is-5'>
-							<h2 className='title is-2 has-text-weight-normal has-text-white family2 this-reveal'>Múltiples servicios</h2>
+							<h2 className='title is-3 has-text-weight-semibold has-text-white family2 this-reveal'>MÚLTIPLES SERVICIOS</h2>
 							<p className='is-size-5 has-text-weight-light has-text-grey-light this-reveal'>
 								Ofrecemos servicios variados de mecánica integral automotriz apoyándonos en el diagnóstico computarizado y las últimas
 								herramientas para llevar a cabo un proceso de reparación exitoso y en el menor tiempo posible

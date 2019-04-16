@@ -16,7 +16,7 @@ export default class MyDocument extends Document {
 					<meta http-equiv='X-UA-Compatible' content='ie=edge' />
 					<link rel='shortcut icon' href='/static/favicon.ico' type='image/x-icon' />
 					<link rel='icon' href='/static/favicon.ico' type='image/x-icon' />
-					<link href='https://fonts.googleapis.com/css?family=Nunito:300,400,600,700|Oswald:400,700' rel='stylesheet' />
+					<link href='https://fonts.googleapis.com/css?family=Nunito:300,400,600,700|Oswald:400,600' rel='stylesheet' />
 					<link
 						rel='stylesheet'
 						href='https://use.fontawesome.com/releases/v5.3.1/css/all.css'

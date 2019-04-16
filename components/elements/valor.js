@@ -12,7 +12,7 @@ class Valor extends Component {
 				<div className='hero is-medium'>
 					<div className='hero-body'>
 						<div className='container this-reveal'>
-							<p className='title has-text-white has-text-weight-normal is-2 family2'>
+							<p className='title has-text-white has-text-weight-semibold is-3 family2'>
 								{this.props.tit1} <span className='micolor1 has-text-weight-bold'>{this.props.tit2}</span>
 							</p>
 							<p className='subtitle has-text-grey-light has-text-weight-normal is-5'>{this.props.sub}</p>

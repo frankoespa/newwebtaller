@@ -5,8 +5,8 @@ class Clientes extends Component {
 		return (
 			<section className='section is-medium has-background-dark-2'>
 				<div className='container'>
-					<p className='title has-text-white has-text-weight-light has-text-centered is-2 this-reveal'>
-						MÁS DE <span className='has-text-weight-bold family2'>150</span> CLIENTES CONFÍAN EN NOSOTROS
+					<p className='title has-text-white has-text-weight-semibold has-text-centered is-3 family2 this-reveal'>
+						MÁS DE <span className='is-size-1 my-text-color-2'>150</span> CLIENTES CONFÍAN EN NOSOTROS
 					</p>
 				</div>
 				<style jsx>{`

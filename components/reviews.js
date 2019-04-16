@@ -15,6 +15,7 @@ class Reviews extends Component {
 		return (
 			<section className='section has-background-dark-2'>
 				<div className='container has-text-centered'>
+					<h2 className='title is-3 has-text-weight-semibold my-text-color-1 family2 this-reveal'>TESTIMONIOS</h2>
 					<div className='columns'>
 						<div className='column is-half is-offset-one-quarter this-reveal'>
 							<SliderReviews
